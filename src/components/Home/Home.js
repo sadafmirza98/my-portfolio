@@ -6,8 +6,8 @@ import Type from "./Type";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+/*   AiOutlineTwitter,
+  AiFillInstagram, */
   AiOutlineMail
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -79,7 +79,7 @@ function Home() {
                   <AiFillGithub />
                 </a>
               </li>
-              
+
               <li className="social-icons">
                 <a
                   href="https://www.hackerrank.com/profile/sadafmirza98"
