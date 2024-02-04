@@ -1,4 +1,5 @@
-<img width="953" alt="Portfolio" src="https://github.com/sadafmirza98/my-portfolio/assets/83817977/def71df0-86f6-4f40-83d5-b7b657d41046">
+<img width="960" alt="image" src="https://github.com/sadafmirza98/my-portfolio/assets/83817977/23602f75-1d2e-44be-850b-671ac0149b8d">
+
 
 # Sadaf Mirza - Portfolio
 
