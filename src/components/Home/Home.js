@@ -8,6 +8,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineMail
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaHackerrank } from "react-icons/fa";
@@ -46,16 +47,17 @@ function Home() {
           <Col md={12} className="home-about-social">
             <h3>CONNECT WITH <span className="pink">ME ON</span></h3>
             <ul className="home-about-social-links">
-              <li className="social-icons">
+            <li className="social-icons">
                 <a
-                  href="https://github.com/sadafmirza98"
+                  href="mailto:sadafmirza98@gmail.com"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
-                  <AiFillGithub />
+                  <AiOutlineMail />
                 </a>
               </li>
+              
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/sadaf-mirza/"
@@ -66,6 +68,18 @@ function Home() {
                   <FaLinkedinIn />
                 </a>
               </li>
+
+              <li className="social-icons">
+                <a
+                  href="https://github.com/sadafmirza98"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+              
               <li className="social-icons">
                 <a
                   href="https://www.hackerrank.com/profile/sadafmirza98"
@@ -76,7 +90,7 @@ function Home() {
                   <FaHackerrank />
                 </a>
               </li>
-              <li className="social-icons">
+{/*               <li className="social-icons">
                 <a
                   href="https://twitter.com/artanimous1"
                   target="_blank"
@@ -85,7 +99,7 @@ function Home() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> 
               <li className="social-icons">
                 <a
                   href="https://www.instagram.com/artanimous"
@@ -95,7 +109,7 @@ function Home() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li>*/}
             </ul>
           </Col>
         </Row>
