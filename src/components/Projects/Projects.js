@@ -21,7 +21,7 @@ function Projects() {
               imgPath={Portfolio}
               isBlog={false}
               title="Portfolio"
-              description="My Portfolio encapsulates a comprehensive snapshot of my professional journey, featuring a collection of experiences, projects, my resume, and social links. Delve into the world of my skills and accomplishments, discovering a blend of creativity and technical expertise. Explore my diverse interests and get to know the person behind the code. It is created using purely React js, javascript and CSS"
+              description="My Portfolio encapsulates a comprehensive snapshot of my professional journey, featuring a collection of experiences, projects, my resume, and social links. Delve into the world of my skills and accomplishments, discovering a blend of creativity and technical expertise. Explore my diverse interests and get to know the person behind the code. It is created using purely React js, Javascript, Bootstrap and CSS"
               ghLink="https://github.com/sadafmirza98/my-portfolio"
               /* demoLink="" */
             />

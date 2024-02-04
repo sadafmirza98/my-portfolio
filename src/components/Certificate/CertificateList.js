@@ -15,6 +15,7 @@ function CertificateList() {
   const genAI = "https://app.pluralsight.com/learner/user/courses/v2/4d314ee7-353d-4895-af37-4596d88bbd48/certificate";
   const promptEngg = "https://app.pluralsight.com/learner/user/courses/v2/5e7d8c9a-77c0-4415-a131-fd935cd68430/certificate";
   const chatGPT = "https://app.pluralsight.com/learner/user/courses/v2/5a4fdeb2-01e1-41ff-9ae6-4c82eabca573/certificate";
+  const bootstrap = "https://app.pluralsight.com/learner/user/courses/v2/865059e1-d89b-47fe-947e-1f981f0de678/certificate";
 
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -73,6 +74,14 @@ function CertificateList() {
         </a>
         <h6>ChatGPT and Generative AI: The Big Picture</h6>
       </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <a href={bootstrap} target="_blank" rel="noopener noreferrer">
+          <SiPluralsight />
+        </a>
+        <h6>Bootstrap - Getting Started</h6>
+      </Col>
+
     </Row>
   );
 }
