@@ -2,7 +2,8 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiUdemy,
-  SiPluralsight
+  SiPluralsight,
+  SiHackerrank
 } from "react-icons/si";
 
 function CertificateList() {
@@ -16,7 +17,8 @@ function CertificateList() {
   const promptEngg = "https://app.pluralsight.com/learner/user/courses/v2/5e7d8c9a-77c0-4415-a131-fd935cd68430/certificate";
   const chatGPT = "https://app.pluralsight.com/learner/user/courses/v2/5a4fdeb2-01e1-41ff-9ae6-4c82eabca573/certificate";
   const bootstrap = "https://app.pluralsight.com/learner/user/courses/v2/865059e1-d89b-47fe-947e-1f981f0de678/certificate";
-
+  const hrJavascript = 'https://www.hackerrank.com/certificates/29b2e1abed44';
+  const hrSQL = 'https://www.hackerrank.com/certificates/de33bc217d7d';
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
@@ -45,6 +47,21 @@ function CertificateList() {
           <SiUdemy />
         </a>
         <h6>Angular - The Complete Guide</h6>
+      </Col>
+
+
+      <Col xs={4} md={2} className="tech-icons">
+        <a href={hrJavascript} target="_blank" rel="noopener noreferrer">
+          <SiHackerrank />
+        </a>
+        <h6>JavaScript (Intermediate)</h6>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <a href={hrSQL} target="_blank" rel="noopener noreferrer">
+          <SiHackerrank />
+        </a>
+        <h6>SQL (Advanced)</h6>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
