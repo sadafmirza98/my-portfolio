@@ -701,3 +701,19 @@ button:focus {
   }
 }
 
+.tooltip {
+  position: absolute;
+  background-color: rgb(234, 143, 194);
+  color: white;
+  padding: 5px;
+  border-radius: 15px;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-family: sans-serif;
+}
+
+.tech-icons:hover .tooltip {
+  opacity: 1;
+}
+
