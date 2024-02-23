@@ -11,6 +11,10 @@ import {
   DiMysql
 } from "react-icons/di";
 
+import {
+  SiAmazonaws,
+} from "react-icons/si";
+
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -33,6 +37,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
       <span className="tooltip">Node js</span>
         <DiNodejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <span className="tooltip">AWS Technical Accredited</span>
+        <SiAmazonaws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
       <span className="tooltip">MongoDB</span>

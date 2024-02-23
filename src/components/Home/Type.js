@@ -8,6 +8,7 @@ function Type() {
         strings: [
           "Software Engineer",
           "MEARN Stack Developer",
+          "AWS Technical Accredited"
         ],
         autoStart: true,
         loop: true,
