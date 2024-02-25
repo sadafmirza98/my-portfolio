@@ -39,7 +39,7 @@ function Techstack() {
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <span className="tooltip">AWS Technical Accredited</span>
+      <span className="tooltip">AWS Partner: Accreditation (Technical)</span>
         <SiAmazonaws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">

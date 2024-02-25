@@ -3,11 +3,13 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiUdemy,
   SiPluralsight,
-  SiHackerrank
+  SiHackerrank,
+  SiAmazonaws
 } from "react-icons/si";
 
 function CertificateList() {
 
+  const awsTechnicalAccreditation = 'https://www.credly.com/earner/earned/badge/bf93e557-c642-4697-b055-8982042bef1d';
   const underStandingTypeScript = 'https://www.udemy.com/certificate/UC-dfa845ec-5214-4686-8902-034a140633f8/';
   const graphQL = "https://www.udemy.com/certificate/UC-8bb47149-2a5e-466a-a0ad-0aff48f9de9e/";
   const javaScript = "https://www.udemy.com/certificate/UC-4085a94e-bf2a-4675-960a-0ac977fc053b/";
@@ -21,6 +23,12 @@ function CertificateList() {
   const hrSQL = 'https://www.hackerrank.com/certificates/de33bc217d7d';
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <a href={awsTechnicalAccreditation} target="_blank" rel="noopener noreferrer">
+          <SiAmazonaws />
+        </a>
+        <h6>AWS Partner: Accreditation (Technical)</h6>
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <a href={underStandingTypeScript} target="_blank" rel="noopener noreferrer">
           <SiUdemy />
@@ -46,7 +54,7 @@ function CertificateList() {
         <a href={angular} target="_blank" rel="noopener noreferrer">
           <SiUdemy />
         </a>
-        <h6>Angular - The Complete Guide</h6>
+        <h6>Angular: The Complete Guide</h6>
       </Col>
 
 
@@ -96,7 +104,7 @@ function CertificateList() {
         <a href={bootstrap} target="_blank" rel="noopener noreferrer">
           <SiPluralsight />
         </a>
-        <h6>Bootstrap - Getting Started</h6>
+        <h6>Bootstrap: Getting Started</h6>
       </Col>
 
     </Row>
