@@ -7,7 +7,7 @@ Welcome to my personal portfolio website! This project showcases my skills, expe
 
 ## About Me
 
-Hello! I'm Sadaf Mirza, a Software Developer based in Mumbai, India. Currently employed at LTIMindtree, I hold a Bachelor's Degree in Information Technology. My passion lies in crafting digital solutions that make a meaningful impact.
+Hello! I'm Sadaf Mirza, a Senior Software Engineer based in Mumbai, India. Currently employed at LTIMindtree, I hold a Bachelor's Degree in Information Technology. My passion lies in crafting digital solutions that make a meaningful impact.
 
 ## Technical Expertise
 
