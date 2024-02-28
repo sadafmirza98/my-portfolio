@@ -9,28 +9,31 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hello! I am <span className="pink"><i><b>Sadaf Mirza</b></i>, </span>
-            a Software Developer based in<span className="pink"><i><b> Mumbai, India</b></i>, </span>
+            a Senior Software Engineer based in<span className="pink"><i><b> Mumbai, India</b></i>, </span>
             currently working at <span className="pink"><i><b>LTIMindtree.</b></i></span>
             <br />
             I have completed  my Bachelor's Degree in <span className="pink"><i><b>Information Technology,</b></i></span> my passion lies in crafting digital solutions that make an impact.
             <br />As a certified MEARN stack developer, my technical proficiency extends to 
               <i>
-                <b className="pink"> Javascript, React, Angular, Node js and Cloud Technologies </b>
+                <b className="pink"> Javascript, React, Angular, Node js and AWS Cloud Technologies </b>
               </i>
               <br />
             <br />
-            When I'm not immersed in coding, you can find me:
+            When I am not immersed in coding, you can find me:
           </p>
           <ul>
           <b>
-            <li className="about-activity pink">
-              <ImPointRight /> Playing Games
-            </li>
              <li className="about-activity pink">
               <ImPointRight /> Painting
             </li> 
             <li className="about-activity pink">
               <ImPointRight /> Watching Anime
+            </li>
+            <li className="about-activity pink">
+              <ImPointRight /> Reading books
+            </li>
+            <li className="about-activity pink">
+              <ImPointRight /> Playing Games
             </li>
             </b>
           </ul>

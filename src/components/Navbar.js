@@ -8,7 +8,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
-  AiOutlineSafetyCertificate
+  AiOutlineSafetyCertificate,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -59,10 +59,31 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/skills"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> {" "}Skills & Tools
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/certificate"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineSafetyCertificate style={{ marginBottom: "2px" }} />{" "}
+                Certifications
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> About Me
               </Nav.Link>
             </Nav.Item>
 
@@ -78,21 +99,8 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
-            
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/certificate"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineSafetyCertificate
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Certificates
-              </Nav.Link>
-            </Nav.Item>
 
-            <Nav.Item>
+            {/*             <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
@@ -100,9 +108,9 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
-{/*             <Nav.Item>
+            {/*             <Nav.Item>
               <Nav.Link
                 href=""
                 target="_blank"
@@ -112,7 +120,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item> */}
 
-{/*             <Nav.Item className="fork-btn">
+            {/*             <Nav.Item className="fork-btn">
               <Button
                 href=""
                 target="_blank"
