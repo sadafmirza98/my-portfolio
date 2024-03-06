@@ -31,7 +31,7 @@ function Techstack() {
         <DiAngularSimple />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <span className="tooltip">HTML</span>
+      <span className="tooltip">HTML & CSS</span>
         <DiHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">

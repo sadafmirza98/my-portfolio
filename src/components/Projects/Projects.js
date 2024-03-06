@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
+import MapMemo from "../../Assets/Projects/MapMemo.png";
 
 function Projects() {
   return (
@@ -26,7 +27,18 @@ function Projects() {
               /* demoLink="" */
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MapMemo}
+              isBlog={false}
+              title="Map Memo"
+              description="Map Memo is a website where users can save their favorite locations, add memories, or use it as a bucket list for future visits. With Map Memo, users can easily organize and personalize their travel experiences, making it a valuable tool for adventurers and explorers. Additionally, users can create personalized accounts for efficient management of saved places. With authentication and authorization features, users can sign up, log in, and perform actions such as adding, editing, and deleting locations."
+              ghLink="https://github.com/sadafmirza98/map-memo"
+              /* demoLink="" */
+            />
+          </Col>
         </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}></Row>
       </Container>
     </Container>
   );
