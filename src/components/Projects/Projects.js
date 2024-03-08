@@ -22,7 +22,7 @@ function Projects() {
               imgPath={MapMemo}
               isBlog={false}
               title="Map Memo"
-              description="Map Memo is a website where users can save their favorite locations, add memories, or use it as a bucket list for future visits. With Map Memo, users can easily organize and personalize their travel experiences, making it a valuable tool for adventurers and explorers. Additionally, users can create personalized accounts for efficient management of saved places. With authentication and authorization features, users can sign up, log in, and perform actions such as adding, editing, and deleting locations."
+              description="Map Memo is a website for organizing travel experiences. Users can save favorite locations, add memories, or create bucket lists for future visits. With authentication and authorization features, users can sign up, log in, and efficiently manage saved places. It's a valuable tool for adventurers to personalize their travel experiences."
               ghLink="https://github.com/sadafmirza98/map-memo"
               demoLink="In progress"
             />
