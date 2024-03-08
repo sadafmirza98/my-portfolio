@@ -7,7 +7,8 @@ import {
   SiAmazonaws,
   SiJirasoftware,
   SiPostgresql,
-  SiGithub
+  SiGithub,
+  SiFirebase,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -18,28 +19,32 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <span className="tooltip">Postman</span>
+        <span className="tooltip">Postman</span>
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <span className="tooltip">Docker</span>
+        <span className="tooltip">Docker</span>
         <SiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <span className="tooltip">AWS Console</span>
+        <span className="tooltip">AWS Console</span>
         <SiAmazonaws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <span className="tooltip">Jira</span>
+        <span className="tooltip">Jira</span>
         <SiJirasoftware />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <span className="tooltip">PostgreSQL</span>
+        <span className="tooltip">PostgreSQL</span>
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <span className="tooltip">GitHub</span>
+        <span className="tooltip">GitHub</span>
         <SiGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <span className="tooltip">Firebase</span>
+        <SiFirebase />
       </Col>
     </Row>
   );
