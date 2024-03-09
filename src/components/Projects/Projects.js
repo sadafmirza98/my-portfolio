@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import MapMemo from "../../Assets/Projects/MapMemo.png";
 import GoalJutsu from "../../Assets/Projects/GoalJutsu.png";
+import DebugDoodles from "../../Assets/Projects/debugDoodles.png";
 
 function Projects() {
   return (
@@ -17,6 +18,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={DebugDoodles}
+              isBlog={false}
+              title="DebugDoodles"
+              description="Debug Doodle is a straightforward code dumping website designed for developers to share code snippets and find solutions. Whether you're seeking solutions to coding challenges or eager to showcase your expertise, Debug Doodle provides the ideal environment for seamless collaboration and learning in the world of software development."
+              ghLink="https://github.com/sadafmirza98/debug-doodles"
+              demoLink="https://debug-doodles.netlify.app"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={GoalJutsu}
