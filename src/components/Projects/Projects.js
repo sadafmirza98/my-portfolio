@@ -22,7 +22,7 @@ function Projects() {
             <ProjectCard
               imgPath={DebugDoodles}
               isBlog={false}
-              title="DebugDoodles"
+              title="Debug Doodles"
               description="Debug Doodle is a straightforward code dumping website designed for developers to share code snippets and find solutions. Whether you're seeking solutions to coding challenges or eager to showcase your expertise, Debug Doodle provides the ideal environment for seamless collaboration and learning in the world of software development."
               ghLink="https://github.com/sadafmirza98/debug-doodles"
               demoLink="https://debug-doodles.netlify.app"
