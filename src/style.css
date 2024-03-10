@@ -14,6 +14,13 @@ html {
   --imp-text-color: #c770f0;
 }
 
+body {
+  -webkit-user-select: none; /* Chrome, Safari, Opera */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Standard syntax */
+}
+
 .purple {
   color: var(--imp-text-color) !important;
 }
@@ -530,7 +537,17 @@ button:focus {
   background-image: var(--section-background-color) !important;
   color: white !important;
 }
+.img-container {
+  display: inline-block;
+}
 
+.img-container:hover .img-animation {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 10px rgba(251, 161, 197, 0.8));
+}
+.img-animation {
+  transition: transform 0.3s ease;
+}
 .tech-icons {
   font-size: 4.5em !important;
   margin: 15px !important;
@@ -716,4 +733,3 @@ button:focus {
 .tech-icons:hover .tooltip {
   opacity: 1;
 }
-
