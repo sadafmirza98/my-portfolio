@@ -45,7 +45,7 @@ function Projects() {
               title="Map Memo"
               description="Map Memo is a website for organizing travel experiences. Users can save favorite locations, add memories, or create bucket lists for future visits. With authentication and authorization features, users can sign up, log in, and efficiently manage saved places. It's a valuable tool for adventurers to personalize their travel experiences."
               ghLink="https://github.com/sadafmirza98/map-memo"
-              demoLink="In progress"
+              demoLink="https://map-memo.netlify.app/"
             />
           </Col>
         </Row>
