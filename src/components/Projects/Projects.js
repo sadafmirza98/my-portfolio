@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import MapMemo from "../../Assets/Projects/MapMemo.png";
+import TileTrek from "../../Assets/Projects/TileTrek.png";
 import GoalJutsu from "../../Assets/Projects/GoalJutsu.png";
 import DebugDoodles from "../../Assets/Projects/debugDoodles.png";
 
@@ -23,7 +24,7 @@ function Projects() {
               imgPath={DebugDoodles}
               isBlog={false}
               title="Debug Doodles"
-              description="Debug Doodles is a web app that allows users to create, manage, and store their own code repository. It acts as a personal code dump for storing and sharing programming challenges and solutions. With an easy-to-use interface and secure login, users can seamlessly execute their code, track progress, and build a growing library of projects. Powered by React and Firebase, Debug Doodles offers a modern, interactive experience for developers to manage their code in one place."
+              description="Debug Doodles is a web app that allows users to create, manage, and store their own code repository. It acts as a personal code dump for storing and sharing programming challenges and solutions offering a modern, interactive experience for developers to manage their code in one place."
               ghLink="https://github.com/sadafmirza98/debug-doodles"
               demoLink="https://debug-doodles.netlify.app"
             />
@@ -36,6 +37,16 @@ function Projects() {
               description="Goaljutsu is a Naruto-themed goal tracker crafted to empower users in managing, and achieving their goals through missions. With Goaljutsu, users can modify their goals while staying motivated with engaging Naruto interactions, fostering a fun and immersive goal-setting experience"
               ghLink="https://github.com/sadafmirza98/goaljutsu"
               demoLink="https://goaljutsu.netlify.app"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TileTrek}
+              isBlog={false}
+              title="Tile Trek"
+              description="A fun and interactive implementation of the classic 2048 puzzle game built with React. This project features a clean, responsive UI, smooth animations, and a challenging game mechanic where the goal is to combine tiles to reach the elusive 2048 tile."
+              ghLink="https://github.com/sadafmirza98/2048-game"
+              demoLink="https://tile-trek.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
