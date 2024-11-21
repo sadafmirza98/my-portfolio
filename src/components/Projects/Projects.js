@@ -23,7 +23,7 @@ function Projects() {
               imgPath={DebugDoodles}
               isBlog={false}
               title="Debug Doodles"
-              description="Debug Doodle is a straightforward code dumping website designed for developers to share code snippets and find solutions. Whether you're seeking solutions to coding challenges or eager to showcase your expertise, Debug Doodle provides the ideal environment for seamless collaboration and learning in the world of software development."
+              description="Debug Doodles is a web app that allows users to create, manage, and store their own code repository. It acts as a personal code dump for storing and sharing programming challenges and solutions. With an easy-to-use interface and secure login, users can seamlessly execute their code, track progress, and build a growing library of projects. Powered by React and Firebase, Debug Doodles offers a modern, interactive experience for developers to manage their code in one place."
               ghLink="https://github.com/sadafmirza98/debug-doodles"
               demoLink="https://debug-doodles.netlify.app"
             />
