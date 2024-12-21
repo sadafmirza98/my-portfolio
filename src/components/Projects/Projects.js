@@ -6,6 +6,8 @@ import MapMemo from "../../Assets/Projects/MapMemo.png";
 import TileTrek from "../../Assets/Projects/TileTrek.png";
 import GoalJutsu from "../../Assets/Projects/GoalJutsu.png";
 import DebugDoodles from "../../Assets/Projects/debugDoodles.png";
+import MetricsMaster from "../../Assets/Projects/MetricsMaster.png";
+import LaneRush from "../../Assets/Projects/LaneRush.png";
 
 function Projects() {
   return (
@@ -41,12 +43,32 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={MetricsMaster}
+              isBlog={false}
+              title="Metrics Master"
+              description="Metrics Master is your go-to app for creating detailed reports and dynamic visual analytics. Select the metrics you need, and the app generates insightful reports and stunning graphical representations, empowering you to visualize data trends and make informed decisions with ease."
+              ghLink="https://github.com/sadafmirza98/custom-cv-report"
+              demoLink="https://metrics-master.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={TileTrek}
               isBlog={false}
               title="Tile Trek"
               description="A fun and interactive implementation of the classic 2048 puzzle game built with React. This project features a clean, responsive UI, smooth animations, and a challenging game mechanic where the goal is to combine tiles to reach the elusive 2048 tile."
               ghLink="https://github.com/sadafmirza98/2048-game"
               demoLink="https://tile-trek.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={LaneRush}
+              isBlog={false}
+              title="Lane Rush"
+              description="A fun and interactive implementation of the classic racing game built with JS. This project features a clean, responsive UI, smooth animations, and a challenging game mechanic."
+              ghLink="https://github.com/sadafmirza98/lane-rush"
+              demoLink="https://lane-rush.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
