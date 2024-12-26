@@ -1,12 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  SiUdemy,
-  SiPluralsight,
-  SiHackerrank,
-  SiAmazonaws,
-} from "react-icons/si";
-
+import { SiUdemy, SiPluralsight, SiHackerrank } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
 function CertificateList() {
   const awsTechnicalAccreditation =
     "https://www.credly.com/earner/earned/badge/bf93e557-c642-4697-b055-8982042bef1d";
@@ -40,7 +35,7 @@ function CertificateList() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <SiAmazonaws />
+          <FaAws />
         </a>
         <h6>AWS Partner: Accreditation (Technical)</h6>
       </Col>

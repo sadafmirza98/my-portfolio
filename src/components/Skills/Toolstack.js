@@ -1,22 +1,22 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiVisualstudiocode,
   SiPostman,
   SiDocker,
-  SiAmazonaws,
   SiJirasoftware,
   SiPostgresql,
   SiGithub,
   SiFirebase,
 } from "react-icons/si";
+import { VscVscode } from "react-icons/vsc";
+import { FaAws } from "react-icons/fa";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <span className="tooltip">Visual Studio Code</span>
-        <SiVisualstudiocode />
+        <VscVscode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <span className="tooltip">Postman</span>
@@ -28,7 +28,7 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <span className="tooltip">AWS Console</span>
-        <SiAmazonaws />
+        <FaAws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <span className="tooltip">Jira</span>

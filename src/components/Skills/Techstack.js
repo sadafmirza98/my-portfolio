@@ -8,50 +8,48 @@ import {
   DiGit,
   DiAngularSimple,
   DiHtml5,
-  DiMysql
+  DiMysql,
 } from "react-icons/di";
 
-import {
-  SiAmazonaws,
-} from "react-icons/si";
+import { FaAws } from "react-icons/fa";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-      <span className="tooltip">JavaScript</span>
+        <span className="tooltip">JavaScript</span>
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <span className="tooltip">React</span>
+        <span className="tooltip">React</span>
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <span className="tooltip">Angular</span>
+        <span className="tooltip">Angular</span>
         <DiAngularSimple />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <span className="tooltip">HTML & CSS</span>
+        <span className="tooltip">HTML & CSS</span>
         <DiHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <span className="tooltip">Node js</span>
+        <span className="tooltip">Node js</span>
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <span className="tooltip">AWS Partner: Accreditation (Technical)</span>
-        <SiAmazonaws />
+        <span className="tooltip">AWS Partner: Accreditation (Technical)</span>
+        <FaAws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <span className="tooltip">MongoDB</span>
+        <span className="tooltip">MongoDB</span>
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <span className="tooltip">Git</span>
+        <span className="tooltip">Git</span>
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <span className="tooltip">SQL</span>
+        <span className="tooltip">SQL</span>
         <DiMysql />
       </Col>
     </Row>
