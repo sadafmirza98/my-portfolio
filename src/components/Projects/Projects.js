@@ -26,7 +26,7 @@ function Projects() {
               imgPath={DebugDoodles}
               isBlog={false}
               title="Debug Doodles"
-              description="Debug Doodles is a web app that allows users to create, manage, and store their own code repository. It acts as a personal code dump for storing and sharing programming challenges and solutions offering a modern, interactive experience for developers to manage their code in one place."
+              description="Debug Doodles is a web app built using vanilla Javascript, Firebase, HTML and CSS that allows users to create, manage, and store their own code repository. It acts as a personal code dump for storing and sharing programming challenges and solutions offering a modern, interactive experience for developers to manage their code in one place."
               ghLink="https://github.com/sadafmirza98/debug-doodles"
               demoLink="https://debug-doodles.netlify.app"
             />
@@ -36,7 +36,7 @@ function Projects() {
               imgPath={GoalJutsu}
               isBlog={false}
               title="Goaljutsu"
-              description="Goaljutsu is a Naruto-themed goal tracker crafted to empower users in managing, and achieving their goals through missions. With Goaljutsu, users can modify their goals while staying motivated with engaging Naruto interactions, fostering a fun and immersive goal-setting experience"
+              description="Goaljutsu is a Naruto-themed goal tracker crafted to empower users in managing, and achieving their goals through missions. It is built using Angular and Firebase. With Goaljutsu, users can modify their goals while staying motivated with engaging Naruto interactions, fostering a fun and immersive goal-setting experience"
               ghLink="https://github.com/sadafmirza98/goaljutsu"
               demoLink="https://goaljutsu.netlify.app"
             />
@@ -46,7 +46,7 @@ function Projects() {
               imgPath={MetricsMaster}
               isBlog={false}
               title="Metrics Master"
-              description="Metrics Master is your go-to app for creating detailed reports and dynamic visual analytics. Select the metrics you need, and the app generates insightful reports and stunning graphical representations, empowering you to visualize data trends and make informed decisions with ease."
+              description="Metrics Master is your go-to app for creating detailed reports and dynamic visual analytics. Select the metrics you need, and the app generates insightful reports and stunning graphical representations, empowering you to visualize data trends and make informed decisions with ease. It is built using React.js and additional libraries like chart.js for graph and excel.js for excel parsing."
               ghLink="https://github.com/sadafmirza98/custom-cv-report"
               demoLink="https://metrics-master.netlify.app/"
             />
@@ -56,7 +56,7 @@ function Projects() {
               imgPath={TileTrek}
               isBlog={false}
               title="Tile Trek"
-              description="A fun and interactive implementation of the classic 2048 puzzle game built with React. This project features a clean, responsive UI, smooth animations, and a challenging game mechanic where the goal is to combine tiles to reach the elusive 2048 tile."
+              description="Tile Trek is a dynamic puzzle game built with React.js, offering a variety of engaging game modes. Players can choose from games like Peek-a-Chu or the classic 2048 puzzle, along with many more exciting options. Each game features unique challenges, ensuring endless fun and mental stimulation. Explore different puzzles, solve challenges, and embark on your tile adventure in Tile Trek!"
               ghLink="https://github.com/sadafmirza98/2048-game"
               demoLink="https://tile-trek.netlify.app/"
             />
@@ -66,7 +66,7 @@ function Projects() {
               imgPath={LaneRush}
               isBlog={false}
               title="Lane Rush"
-              description="A fun and interactive implementation of the classic racing game built with JS. This project features a clean, responsive UI, smooth animations, and a challenging game mechanic."
+              description="A fun and interactive implementation of the classic racing game built using vanilla Javascript, HTML and CSS. This project features a clean, responsive UI, smooth animations, and a challenging game mechanic."
               ghLink="https://github.com/sadafmirza98/lane-rush"
               demoLink="https://lane-rush.netlify.app/"
             />
