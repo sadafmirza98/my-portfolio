@@ -76,7 +76,7 @@ function Projects() {
               imgPath={MapMemo}
               isBlog={false}
               title="Map Memo"
-              description="Map Memo is a website for organizing travel experiences. Users can save favorite locations, add memories, or create bucket lists for future visits. With authentication and authorization features, users can sign up, log in, and efficiently manage saved places. It's a valuable tool for adventurers to personalize their travel experiences."
+              description="Map Memo is a platform where users can add and explore places, upvote their favorites, and earn badges for achievements for a gamified experiencce. Majorly, users can read detailed descriptions of places or share moments related to them. It's the perfect tool for adventurers to personalize and share their travel experiences built using React.js and Firebase."
               ghLink="https://github.com/sadafmirza98/map-memo"
               demoLink="https://map-memo.netlify.app/"
             />
