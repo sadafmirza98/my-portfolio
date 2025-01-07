@@ -43,12 +43,12 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={MetricsMaster}
+              imgPath={MapMemo}
               isBlog={false}
-              title="Metrics Master"
-              description="Metrics Master is your go-to app for creating detailed reports and dynamic visual analytics. Select the metrics you need, and the app generates insightful reports and stunning graphical representations, empowering you to visualize data trends and make informed decisions with ease. It is built using React.js and additional libraries like chart.js for graph and excel.js for excel parsing."
-              ghLink="https://github.com/sadafmirza98/custom-cv-report"
-              demoLink="https://metrics-master.netlify.app/"
+              title="Map Memo"
+              description="Map Memo is a platform where users can add and explore places, upvote their favorites, and earn badges for achievements for a gamified experience. Majorly, users can read detailed descriptions of places or share moments related to them. It's the perfect tool for adventurers to personalize and share their travel experiences built using React.js and Firebase."
+              ghLink="https://github.com/sadafmirza98/map-memo"
+              demoLink="https://map-memo.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -73,12 +73,12 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={MapMemo}
+              imgPath={MetricsMaster}
               isBlog={false}
-              title="Map Memo"
-              description="Map Memo is a platform where users can add and explore places, upvote their favorites, and earn badges for achievements for a gamified experiencce. Majorly, users can read detailed descriptions of places or share moments related to them. It's the perfect tool for adventurers to personalize and share their travel experiences built using React.js and Firebase."
-              ghLink="https://github.com/sadafmirza98/map-memo"
-              demoLink="https://map-memo.netlify.app/"
+              title="Metrics Master"
+              description="Metrics Master is your go-to app for creating detailed reports and dynamic visual analytics. Select the metrics you need, and the app generates insightful reports and stunning graphical representations, empowering you to visualize data trends and make informed decisions with ease. It is built using React.js and additional libraries like chart.js for graph and excel.js for excel parsing."
+              ghLink="https://github.com/sadafmirza98/custom-cv-report"
+              demoLink="https://metrics-master.netlify.app/"
             />
           </Col>
         </Row>
