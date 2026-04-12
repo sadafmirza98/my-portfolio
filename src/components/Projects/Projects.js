@@ -8,6 +8,7 @@ import GoalJutsu from "../../Assets/Projects/GoalJutsu.png";
 import DebugDoodles from "../../Assets/Projects/debugDoodles.png";
 import MetricsMaster from "../../Assets/Projects/MetricsMaster.png";
 import LaneRush from "../../Assets/Projects/LaneRush.png";
+import Paimon from "../../Assets/Projects/Paimon.png";
 
 function Projects() {
   return (
@@ -29,6 +30,16 @@ function Projects() {
               description="Debug Doodles is a web app built using React.js and Firebase that allows users to create, manage, and store their own code repository. It acts as a personal code dump for storing and sharing programming challenges and solutions offering a modern, interactive experience for developers to manage their code in one place."
               ghLink="https://github.com/sadafmirza98/debug-doodles"
               demoLink="https://debug-doodles.netlify.app"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Paimon}
+              isBlog={false}
+              title="P.A.I.M.O.N."
+              description="Paimon AI Chatbot is a Genshin-inspired web app built using the PERN stack. Inspired by Genshin Impact, it offers a smart chat interface powered by AI with context-aware responses using basic RAG. It combines engaging anime personality with real-world functionality, making it a strong full-stack portfolio project."
+              ghLink="https://github.com/sadafmirza98/paimon"
+              demoLink="https://paimon-chatbot.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
