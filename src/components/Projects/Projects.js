@@ -57,7 +57,7 @@ function Projects() {
               imgPath={MetricsMaster}
               isBlog={false}
               title="Metrics Master"
-              description="A futuristic geo intelligence and analytics platform built with Next.js, TypeScript, Tailwind CSS, Firebase, Mapbox APIs, Three.js, and AI powered insights to transform complex business and location data into immersive visual intelligence, export reports and analyse which location is best for your business."
+              description="A futuristic geo intelligence and analytics platform built with Next.js, TypeScript, Tailwind CSS, Firebase, Mapbox APIs, Three.js, and AI powered insights to transform complex business and location data into immersive visual intelligence, generate exportable reports, and analyze which locations are best suited for business growth and expansion."
               ghLink="https://github.com/sadafmirza98/custom-cv-report"
               demoLink="https://metrics-master.netlify.app/"
             />
