@@ -9,6 +9,7 @@ import DebugDoodles from "../../Assets/Projects/debugDoodles.png";
 import MetricsMaster from "../../Assets/Projects/MetricsMaster.png";
 import LaneRush from "../../Assets/Projects/LaneRush.png";
 import Paimon from "../../Assets/Projects/Paimon.png";
+import Kaizen from "../../Assets/Projects/Kaizen.png"
 
 function Projects() {
   return (
@@ -40,6 +41,16 @@ function Projects() {
               description="An intelligent Genshin inspired AI companion built with Next.js, TypeScript, Tailwind CSS, Firebase, Framer Motion, and OpenAI APIs that helps users organize memories, ideas, conversations, and contextual knowledge through a magical second brain experience."
               ghLink="https://github.com/sadafmirza98/paimon"
               demoLink="https://paimon-chatbot.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Kaizen}
+              isBlog={false}
+              title="Kaizen- Dev Microtools"
+              description="Kaizen provides a curated suite of developer microtools designed to remove friction from everyday workflows. From JSON formatting, JWT decoding, regex testing, timestamp conversion, cron visualization, API testing, Base64 encoding, SQL formatting, UUID generation, and markdown previews to AI powered resume builders, interview preparation assistants, LinkedIn optimizers, and visual developer playbooks, every tool is crafted to help developers work faster, think clearer, and stay in deep flow without switching between cluttered websites."
+              ghLink="https://github.com/sadafmirza98/kaizen"
+              demoLink="https://kaizen-microtools.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
