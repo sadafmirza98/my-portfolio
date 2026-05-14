@@ -37,7 +37,7 @@ function Projects() {
               imgPath={Paimon}
               isBlog={false}
               title="P.A.I.M.O.N."
-              description="Paimon AI Chatbot is a Genshin-inspired web app built using the PERN stack. Inspired by Genshin Impact, it offers a smart chat interface powered by AI with context-aware responses using basic RAG. It combines engaging anime personality with real-world functionality, making it a strong full-stack portfolio project."
+              description="An intelligent Genshin inspired AI companion built with Next.js, TypeScript, Tailwind CSS, Firebase, Framer Motion, and OpenAI APIs that helps users organize memories, ideas, conversations, and contextual knowledge through a magical second brain experience."
               ghLink="https://github.com/sadafmirza98/paimon"
               demoLink="https://paimon-chatbot.vercel.app/"
             />
@@ -54,12 +54,12 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={MapMemo}
+              imgPath={MetricsMaster}
               isBlog={false}
-              title="Map Memo"
-              description="Map Memo is a platform where users can add and explore places, upvote their favorites, and earn badges for achievements for a gamified experience. Majorly, users can read detailed descriptions of places or share moments related to them. It's the perfect tool for adventurers to personalize and share their travel experiences built using React.js and Firebase."
-              ghLink="https://github.com/sadafmirza98/map-memo"
-              demoLink="https://map-memo.netlify.app/"
+              title="Metrics Master"
+              description="A futuristic geo intelligence and analytics platform built with Next.js, TypeScript, Tailwind CSS, Firebase, Mapbox APIs, Three.js, and AI powered insights to transform complex business and location data into immersive visual intelligence, export reports and analyse which location is best for your business."
+              ghLink="https://github.com/sadafmirza98/custom-cv-report"
+              demoLink="https://metrics-master.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -77,19 +77,19 @@ function Projects() {
               imgPath={LaneRush}
               isBlog={false}
               title="Lane Rush"
-              description="A fun and interactive implementation of the classic racing game built using vanilla Javascript, HTML and CSS. This project features a clean, responsive UI, smooth animations, and a challenging game mechanic."
+              description="A cinematic cyberpunk arcade racing experience built with Next.js, TypeScript, Three.js, React Three Fiber, Tailwind CSS, and Framer Motion featuring immersive neon highways, dynamic crashes, atmospheric visuals, and fun gameplay."
               ghLink="https://github.com/sadafmirza98/lane-rush"
               demoLink="https://lane-rush.netlify.app/"
             />
           </Col>
-          <Col md={4} className="project-card">
+                    <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={MetricsMaster}
+              imgPath={MapMemo}
               isBlog={false}
-              title="Metrics Master"
-              description="Metrics Master is your go-to app for creating detailed reports and dynamic visual analytics. Select the metrics you need, and the app generates insightful reports and stunning graphical representations, empowering you to visualize data trends and make informed decisions with ease. It is built using React.js and additional libraries like chart.js for graph and excel.js for excel parsing."
-              ghLink="https://github.com/sadafmirza98/custom-cv-report"
-              demoLink="https://metrics-master.netlify.app/"
+              title="Map Memo"
+              description="Map Memo is a platform where users can add and explore places, upvote their favorites, and earn badges for achievements for a gamified experience. Majorly, users can read detailed descriptions of places or share moments related to them. It's the perfect tool for adventurers to personalize and share their travel experiences built using React.js and Firebase."
+              ghLink="https://github.com/sadafmirza98/map-memo"
+              demoLink="https://map-memo.netlify.app/"
             />
           </Col>
         </Row>
