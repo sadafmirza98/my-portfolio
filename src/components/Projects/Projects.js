@@ -50,7 +50,7 @@ function Projects() {
               title="Kaizen"
               description="Kaizen provides a curated suite of developer microtools designed to remove friction from everyday workflows. From JSON formatting, JWT decoding, regex testing, timestamp conversion, cron visualization, API testing, Base64 encoding, SQL formatting, UUID generation, and markdown previews to AI powered resume builders, interview preparation assistants, LinkedIn optimizers, and visual developer playbooks, every tool is crafted to help developers work faster, think clearer, and stay in deep flow without switching between cluttered websites."
               ghLink="https://github.com/sadafmirza98/kaizen"
-              demoLink="https://kaizen-kit.vercel.app/"
+              demoLink="https://kaizen-kit.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
